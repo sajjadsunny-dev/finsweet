@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link class="rounded-circle" rel="icon" href="images/title_logo.jpg" type="image/z-icon">
+    <title>{finsweet</title>
+
+    <!-- =================Google fonts link========= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- =================Font awesome css link====== -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <script>
+        window.FontAwesomeConfig = { autoReplaceSvg: false };
+    </script>
+    <!-- =================Bootstrap css link========= -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- =================Custom css link============ -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- =================Responsive css link======== -->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!-- =================navbar html================ -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/nav_logo.png" alt="nav_logo.png">
+            </a>
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#banner">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#our_work">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#our_projects">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#service_part">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#qna_part">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-xl-5" aria-current="page" href="#blog_part">Blog</a>
+                    </li>
+                </ul>
+                <button class="btn my_btn btn-outline-success" type="submit">Contact us</button>
+            </div>
+        </div>
+
+        <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header pb-0 pt-2">
+                <button type="button" class=" ms-auto close_btn" data-bs-dismiss="offcanvas" aria-label="Close">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <div class="offcanvas-body text-end">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-start">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#banner">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#our_work">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#our_projects">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#service_part">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#qna_part">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#blog_part">Blog</a>
+                    </li>
+                </ul>
+                <button class="btn my_btn btn-outline-success me-3" type="submit">Contact Us</button>
+            </div>
+        </div>
+    </nav>
+    <!-- =================navbar html================ -->
+
+    <!-- =================banner html================ -->
+    <section id="banner" class="d-flex align-items-center position-relative">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5 col-lg-7">
+                    <h1>Building stellar websites for early startups</h1>
+                    <p class="mt-xl-4 mb-xl-5 mt-lg-4 mb-lg-5 mt-md-4 mb-md-5 mt-2 mb-4">Lorem ipsum dolor sit amet,
+                        consectetur
+                        adipiscing elit, sed do eiusmod tempor
+                        incididunt.</p>
+                    <div class="banner_btn d-flex align-items-center">
+                        <button class="my_btn me-xl-5 me-lg-5 me-4">View Our Work</button>
+                        <div class="btn_arrow d-flex align-items-center">
+                            <a class="arrow_link" href="#">View Pricing</a>
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-5">
+                    <div class="image h-xl-100 d-xl-flex d-lg-flex d-none align-items-center justify-content-center">
+                        <img src="images/banner.png" alt="banner.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =================banner html================ -->
+
+    <!-- =================our_work html============== -->
+    <section id="our_work">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4">
+                    <div class="title">
+                        <h2>How we work</h2>
+                        <p class="mt-xl-3 mb-xl-3 mt-lg-3 mb-lg-3 mt-2 mb-2">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit,
+                            sed do eiusmod tempor.</p>
+                        <div class="btn_arrow d-flex align-items-center mb-4 mb-xl-0 mb-lg-0">
+                            <a class="arrow_link" href="#">Get in touch with us</a>
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-1 col-lg-1"></div>
+                <div class="col-xl-6 col-lg-6">
+                    <div class="row row-gap-xl-4 row-gap-lg-4 row-gap-sm-4 row-gap-5">
+                        <div class="col-xl-6 col-lg-6 col-sm-6">
+                            <div class="work_card ms-4 ms-sm-0 ms-xl-0 ms-lg-0">
+                                <div class="work_icon position-relative overflow-hidden">
+                                    <h6>01</h6>
+                                </div>
+                                <h3 class="mt-xl-3 mb-xl-2 mt-3 mb-2">Strategy</h3>
+                                <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-sm-6">
+                            <div class="work_card ms-4 ms-sm-0 ms-xl-0 ms-lg-0">
+                                <div class="work_icon position-relative overflow-hidden">
+                                    <h6>02</h6>
+                                </div>
+                                <h3 class="mt-xl-3 mb-xl-2 mt-3 mb-2">Wireframing</h3>
+                                <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-sm-6">
+                            <div class="work_card ms-4 ms-sm-0 ms-xl-0 ms-lg-0">
+                                <div class="work_icon position-relative overflow-hidden">
+                                    <h6>03</h6>
+                                </div>
+                                <h3 class="mt-xl-3 mb-xl-2 mt-3 mb-2">Design</h3>
+                                <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-sm-6">
+                            <div class="work_card ms-4 ms-sm-0 ms-xl-0 ms-lg-0">
+                                <div class="work_icon position-relative overflow-hidden">
+                                    <h6>04</h6>
+                                </div>
+                                <h3 class="mt-xl-3 mb-xl-2 mt-3 mb-2">Development</h3>
+                                <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-1 col-lg-1"></div>
+            </div>
+        </div>
+    </section>
+    <!-- =================our_work html============== -->
+
+    <!-- =================our_projects html========== -->
+    <section id="our_projects">
+        <div class="container">
+            <div class="title">
+                <div class="row">
+                    <div class="col-xl-9 col-lg-9 col-sm-8">
+                        <h2 class="mb-2 mb-sm-0 mb-md-0 mb-lg-0 mb-xl-0">View our projects</h2>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-sm-4 d-flex align-items-center justify-content-end">
+                        <div class="btn_arrow d-flex align-items-center">
+                            <i class="fa-solid fa-arrow-left-long"></i>
+                            <a class="arrow_link" href="#">View Pricing</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-gap-4 row-gap-lg-0 row-gap-xl-0">
+                <div class="col-xl-8 col-lg-8">
+                    <div class="project_banner position-relative">
+                        <div class="overlay position-absolute h-100">
+                            <h4>Workhub office Webflow Webflow Design</h4>
+                            <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam </p>
+                            <div class="btn_arrow d-flex align-items-center">
+                                <a class="arrow_link" href="#">View Portfolio</a>
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </div>
+                        </div>
+                        <img class="w-100" src="images/project1.jpg" alt="project1.jpg">
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4">
+                    <div class="row row-gap-4">
+                        <div class="col-xl-12 col-lg-12 col-md-6">
+                            <div class="project_card position-relative">
+                                <div class="overlay position-absolute h-100 w-100">
+                                    <h5>Unisaas Website Design</h5>
+                                    <div class="mt-2 mt-sm-4 btn_arrow d-flex align-items-center">
+                                        <a class="arrow_link" href="#">View Portfolio</a>
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </div>
+                                </div>
+                                <img class="w-100" src="images/project3.jpg" alt="project3.jpg">
+                            </div>
+                        </div>
+                        <div class="col-xl-12 col-lg-12 col-md-6">
+                            <div class="project_card position-relative">
+                                <div class="overlay position-absolute h-100 w-100">
+                                    <h5>Unisaas Website Design</h5>
+                                    <div class="mt-2 mt-sm-4 btn_arrow d-flex align-items-center">
+                                        <a class="arrow_link" href="#">View Portfolio</a>
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </div>
+                                </div>
+                                <img class="w-100" src="images/project2.jpg" alt="project2.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =================our_projects html========== -->
+
+    <!-- =================service_part html========== -->
+    <section id="service_part">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-8 mx-auto text-xl-center text-center mb-xl-5 mb-5">
+                    <p class="service_title_p">Features</p>
+                    <h4 class="service_title">Design that solves problems, one product at a time</h4>
+                </div>
+            </div>
+            <div class="row row-gap-4">
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="service_card">
+                        <i class="fa-solid fa-users"></i>
+                        <h5>Uses Client First</h5>
+                        <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu
+                            gravida mi. Pellentesque et velit aliquam sed mi. </p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="service_card">
+                        <i class="fa-sharp fa-solid fa-circle-check"></i>
+                        <h5>Two Free Revision Round</h5>
+                        <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu
+                            gravida mi. Pellentesque et velit aliquam sed mi. </p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="service_card">
+                        <i class="fa-solid fa-pen-ruler"></i>
+                        <h5>Template Customization</h5>
+                        <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu
+                            gravida mi. Pellentesque et velit aliquam sed mi. </p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="service_card">
+                        <i class="fa-solid fa-comments"></i>
+                        <h5>24/7 Support</h5>
+                        <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu
+                            gravida mi. Pellentesque et velit aliquam sed mi. </p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="service_card">
+                        <i class="fa-solid fa-stopwatch"></i>
+                        <h5>Quick Delivery</h5>
+                        <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu
+                            gravida mi. Pellentesque et velit aliquam sed mi. </p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="service_card">
+                        <i class="fa-solid fa-file-pen"></i>
+                        <h5>Hands-on approach</h5>
+                        <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu
+                            gravida mi. Pellentesque et velit aliquam sed mi. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =================service_part html========== -->
+
+    <!-- =================client_review html========= -->
+    <section id="client_review">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4">
+                    <div class="title">
+                        <h4>What our clients say about us</h4>
+                        <p class="mt-xl-3 mt-lg-3 mb-xl-0 mb-lg-0 mt-3 mb-5">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit sed.</p>
+                    </div>
+                </div>
+                <div class="col-xl-8 col-lg-8">
+                    <div class="main_div position-relative">
+                        <div class="review_slider">
+                            <div class="review">
+                                <h2 class="mb-xl-5 mb-lg-5 mb-sm-4 mb-3">"The best agency we’ve worked with so far. They
+                                    understand our
+                                    product and are able to
+                                    add new features with a great focus."</h2>
+                                <div class="profile d-flex align-items-center">
+                                    <div class="profile_img overflow-hidden rounded-circle me-xl-3 me-3">
+                                        <img class="h-100" src="images/woman-in-collared-shirt-774909.png" alt="">
+                                    </div>
+                                    <div class="profile_text">
+                                        <h6>Jenny Wilson</h6>
+                                        <p>Vice President</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide_button d-flex position-absolute end-0 bottom-0">
+                            <div class="prev rounded-circle text-center me-xl-3 me-lg-3 me-sm-3 me-2"
+                                onclick="plusSlides(-1)">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </div>
+                            <div class="next rounded-circle text-center me-3" onclick="plusSlides(1)">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =================client_review html========= -->
+
+    <!-- =================qna_part html============== -->
+    <section id="qna_part">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4">
+                    <div class="title">
+                        <h5 class="mb-xl-3 mb-lg-3 mb-2">Frequently asked questions</h5>
+                        <p class="mb-xl-0 mb-lg-0 mb-3">Contact us for more info</p>
+                    </div>
+                </div>
+                <div class="col-xl-8 col-lg-8">
+                    <div class="accordion" id="accordionExample">
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <h5>01</h5>
+                                    <h6>How much time does it take?</h6>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <h5>02</h5>
+                                    <h6>What is your class naming convention?</h6>
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <h5>03</h5>
+                                    <h6>How do you communicate?</h6>
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    <h5>04</h5>
+                                    <h6>I have a bigger project. Can you handle it?</h6>
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border-0">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    <h5>05</h5>
+                                    <h6>What is your class naming convention?</h6>
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =================qna_part html============== -->
+
+    <!-- =================form_sec html============== -->
+    <section id="form_sec">
+        <div class="container">
+            <div class="main d-flex">
+                <div class="left position-relative d-xl-block d-lg-block d-md-block d-none">
+                    <div class="overlay position-absolute w-100 h-100">
+                        <h5 class="mb-xl-4 mb-md-5 mb-4">Building stellar websites for early startups</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua ut enim.</p>
+                    </div>
+                </div>
+                <div class="right w-50">
+                    <h4>Send inquiry</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore.</p>
+
+                    <form class="d-flex flex-column" action="">
+                        <input type="text" placeholder="Your Name">
+                        <input class="mt-xl-3 mt-3" type="text" placeholder="Email">
+                        <input class="mt-xl-3 mt-3" type="text" placeholder="Paste your Figma design URL">
+                    </form>
+                    <button class="my_btn">Send an Inquiry</button>
+                    <div class="btn_arrow d-flex align-items-center">
+                        <a class="arrow_link" href="#">Get in touch with us</a>
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =================form_sec html============== -->
+
+    <!-- =================blog_part html============= -->
+    <section id="blog_part">
+        <div class="container">
+            <h2>Our blog</h2>
+            <div class="row row-gap-4 row-gap-lg-0 row-gap-xl-0">
+                <div class="col-xl-4 col-lg-4">
+                    <div class="blog_card d-lg-block d-xl-block d-md-flex">
+                        <div class="image overflow-hidden w-100"><img class="w-100" src="images/blog1.jpg"
+                                alt="blog1.jpg">
+                        </div>
+                        <div class="content">
+                            <span class="date">19 Jan 2023</span>
+                            <h4 class="mt-xl-3 mb-xl-3 mt-lg-3 mb-lg-3 mt-2 mb-2">How one Webflow user grew his single
+                                person consultancy
+                                from $0-100K in 14 months</h4>
+                            <p>See how pivoting to Webflow changed one person’s sales strategy and allowed him to
+                                attract
+                            </p>
+                            <div class="btn_arrow d-flex align-items-center">
+                                <a class="arrow_link" href="#">Read More</a>
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4">
+                    <div class="blog_card d-lg-block d-xl-block d-md-flex">
+                        <div class="image overflow-hidden w-100"><img class="w-100" src="images/blog2.jpg"
+                                alt="blog2.jpg">
+                        </div>
+                        <div class="content">
+                            <span class="date">19 Jan 2023</span>
+                            <h4 class="mt-xl-3 mb-xl-3mt-lg-3 mb-lg-3  mt-2 mb-2">How one Webflow user grew his single
+                                person consultancy
+                                from $0-100K in 14 months</h4>
+                            <p>See how pivoting to Webflow changed one person’s sales strategy and allowed him to
+                                attract
+                            </p>
+                            <div class="btn_arrow d-flex align-items-center">
+                                <a class="arrow_link" href="#">Read More</a>
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4">
+                    <div class="blog_card d-lg-block d-xl-block d-md-flex">
+                        <div class="image overflow-hidden w-100"><img class="w-100" src="images/blog3.jpg"
+                                alt="blog3.jpg">
+                        </div>
+                        <div class="content">
+                            <span class="date">19 Jan 2023</span>
+                            <h4 class="mt-xl-3 mb-xl-3mt-lg-3 mb-lg-3  mt-2 mb-2">How one Webflow user grew his single
+                                person consultancy
+                                from $0-100K in 14 months</h4>
+                            <p>See how pivoting to Webflow changed one person’s sales strategy and allowed him to
+                                attract
+                            </p>
+                            <div class="btn_arrow d-flex align-items-center">
+                                <a class="arrow_link" href="#">Read More</a>
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =================blog_part html============= -->
+
+    <!-- =================contact_us html============ -->
+    <section id="contact_us">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5 col-lg-5">
+                    <div class="left">
+                        <img src="images/second_logo.png" alt="second_logo.png">
+                        <p>We are always open to discuss your project and improve your online presence.</p>
+                        <div class="contact py-xl-3 py-3">
+                            <div class="row row-gap-lg-0 row-gap-xl-0 row-gap-4">
+                                <div
+                                    class="col-xl-6 col-lg-6 col-sm-6 text-xl-start text-lg-start text-sm-start text-center">
+                                    <div class="contact_card">
+                                        <h6>Email me at</h6>
+                                        <a href="mailto:contact@website.com">contact@website.com</a>
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-xl-6 col-lg-6 col-sm-6 text-xl-start text-lg-start text-sm-start text-center">
+                                    <h6>Call us</h6>
+                                    <a href="tel:0927 6277 28525">0927 6277 28525</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-1 col-lg-1"></div>
+                <div class="col-xl-4 col-lg-4">
+                    <div class="right">
+                        <h3>Lets Talk!</h3>
+                        <p>We are always open to discuss your project, improve your online presence and help with your
+                            UX/UI design challenges.</p>
+                        <div class="icons d-flex">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2"></div>
+            </div>
+        </div>
+    </section>
+    <!-- =================contact_us html============ -->
+
+    <!-- =================footer_part html=========== -->
+    <footer id="footer_part" class="d-xl-block d-lg-block d-md-block d-none">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6">
+                    <p>Copyright 2023, Finsweet.com</p>
+                </div>
+                <div class="col-xl-6 col-lg-6">
+                    <div class="footer_nav d-none d-lg-block d-xl-block">
+                        <ul class="d-flex align-items-center justify-content-end">
+                            <li><a class="active" href="#banner">Home</a></li>
+                            <li><a class="" href="#our_work">About us</a></li>
+                            <li><a class="" href="#our_projects">Features</a></li>
+                            <li><a class="" href="#service_part">Pricing</a></li>
+                            <li><a class="" href="#qna_part">FAQ</a></li>
+                            <li><a class="" href="#blog_part">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- =================footer_part html=========== -->
+
+
+    <!-- =================Font awesome js link======= -->
+    <script src="js/all.min.js"></script>
+    <!-- =================Bootstrap js link========== -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- =================Custom js link============= -->
+    <script src="js/script.js"></script>

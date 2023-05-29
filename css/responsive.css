@@ -1,0 +1,745 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 300px) and (max-width: 575.98px) {
+
+    .my_btn {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 13px 17px;
+    }
+
+    .btn_arrow .arrow_link {
+        font-size: 14px;
+    }
+
+    /* =========navbar responsive css========= */
+    .navbar {
+        padding: 15px 0;
+    }
+
+    /* =========navbar responsive css========= */
+    #banner h1 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+    /* =========our_work responsive css======= */
+    #our_work {
+        padding: 70px 0;
+    }
+
+    #our_work .title h2 {
+        font-size: 44px;
+    }
+
+    #our_work .title p {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    #our_work .work_card p {
+        font-size: 14px;
+    }
+
+    /* =========our_projects responsive css=== */
+
+    #our_projects {
+        padding: 70px 0;
+    }
+
+    #our_projects .title {
+        margin-bottom: 30px;
+    }
+
+    #our_projects .title h2 {
+        font-size: 38px;
+        line-height: 50px;
+    }
+
+    #our_projects .project_banner .overlay {
+        padding: 20px 15px 0 15px;
+    }
+
+    #our_projects .project_banner:hover .overlay {
+        width: 100%;
+    }
+
+    #our_projects .project_banner .overlay h4 {
+        line-height: 32px;
+    }
+
+    #our_projects .project_banner .overlay p {
+        font-size: 14px;
+        line-height: 23px;
+        margin: 8px 0 5px;
+    }
+
+    #our_projects .project_card .overlay {
+        padding: 50px 25px;
+    }
+
+    /* =========service_part responsive css=== */
+    #service_part {
+        padding: 70px 0;
+    }
+
+    #service_part .service_title {
+        font-size: 35px;
+        line-height: 48px;
+        text-align: start;
+    }
+
+    /* =========client_review responsive css== */
+    #client_review {
+        padding: 70px 0 135px;
+    }
+
+    #client_review .title p {
+        font-size: 15px;
+        line-height: 26px;
+        width: 100%;
+    }
+
+    #client_review .review_slider .review h2 {
+        font-size: 23px;
+        line-height: 41px;
+    }
+
+    #client_review .main_div .slide_button {
+        transform: translateY(65px);
+    }
+
+    /* =========qna_part responsive css======= */
+    #qna_part {
+        margin: 70px 0;
+    }
+
+    #qna_part .accordion .accordion-button {
+        padding: 10px 0 10px 15px;
+    }
+
+    #qna_part .accordion h5 {
+        font-size: 22px;
+        line-height: 28px;
+        margin-right: 20px;
+    }
+
+    #qna_part .accordion .accordion-button::after {
+        width: 0;
+        height: 0;
+    }
+
+    #qna_part .accordion h6 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    #qna_part .accordion .accordion-body {
+        padding: 0 0px 10px 55px;
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    /* =========form_sec responsive css======= */
+    #form_sec .main .right {
+        padding: 40px 25px 30px;
+        width: 100% !important;
+    }
+
+    #form_sec .main .right p {
+        font-size: 14px;
+        line-height: 24px;
+        margin: 5px 0 30px;
+    }
+
+    #form_sec .main .right form input {
+        padding: 12px 0 12px 20px;
+        font-size: 14px;
+    }
+
+    #form_sec .main .right form input::placeholder {
+        font-size: 14px;
+    }
+
+    #form_sec .main .right .my_btn {
+        margin: 25px 0 15px;
+        font-size: 15px;
+    }
+
+    #form_sec .main .right .btn_arrow {
+        margin-left: 55px;
+    }
+
+    /* =========blog_part responsive css====== */
+    #blog_part {
+        margin: 70px 0;
+    }
+
+    #blog_part h2 {
+        font-size: 38px;
+        line-height: 55px;
+        margin-bottom: 40px;
+    }
+
+    #blog_part .blog_card .image {
+        height: 225px;
+        margin-bottom: 10px;
+    }
+
+    #blog_part .blog_card .date {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    #blog_part .blog_card h4 {
+        font-size: 21px;
+        line-height: 32px;
+    }
+
+    #blog_part .blog_card p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    #blog_part .blog_card .btn_arrow .arrow_link {
+        font-size: 16px;
+    }
+
+    #blog_part .blog_card .btn_arrow {
+        margin-top: 10px;
+    }
+
+    /* =========contact_us responsive css===== */
+    #contact_us {
+        padding: 70px 0 50px;
+        background: var(--bgcolor);
+    }
+
+    #contact_us .left p {
+        font-size: 15px;
+        width: 100%;
+        margin: 20px 0 30px;
+    }
+
+    #contact_us .left .contact .contact_card {
+        padding: 0;
+    }
+
+    #contact_us .right h3 {
+        font-size: 38px;
+        margin-top: 20px;
+    }
+
+    #contact_us .right p {
+        font-size: 15px;
+        margin: 10px 0 25px;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .my_btn {
+        font-size: 16px;
+        line-height: 18px;
+        padding: 15px 20px;
+    }
+
+    .btn_arrow .arrow_link {
+        font-size: 15px;
+    }
+
+    /* =========navbar responsive css========= */
+    .navbar {
+        padding: 15px 0;
+    }
+
+    .navbar .offcanvas {
+        width: 55%;
+    }
+
+    /* =========navbar responsive css========= */
+    #banner h1 {
+        font-size: 55px;
+    }
+
+    /* =========our_work responsive css======= */
+    #our_work {
+        padding: 90px 0;
+    }
+
+    #our_work .work_card p {
+        font-size: 14px;
+    }
+
+    /* =========our_projects responsive css=== */
+
+    #our_projects {
+        padding: 90px 0;
+    }
+
+    #our_projects .title {
+        margin-bottom: 35px;
+    }
+
+    #our_projects .title h2 {
+        font-size: 38px;
+    }
+
+    #our_projects .project_banner .overlay {
+        padding: 80px 70px 0 40px;
+    }
+
+    #our_projects .project_banner:hover .overlay {
+        width: 100%;
+    }
+
+    #our_projects .project_card .overlay {
+        padding: 90px 70px;
+    }
+
+    #our_projects .project_card h5 {
+        width: 200px;
+    }
+
+    /* =========service_part responsive css=== */
+    #service_part {
+        padding: 90px 0;
+    }
+
+    #service_part .service_title {
+        font-size: 35px;
+        line-height: 48px;
+        text-align: start;
+    }
+
+    /* =========client_review responsive css== */
+    #client_review {
+        padding: 90px 0 135px;
+    }
+
+    #client_review .review_slider .review h2 {
+        font-size: 23px;
+        line-height: 41px;
+    }
+
+    #client_review .main_div .slide_button {
+        transform: translateY(65px);
+    }
+
+    /* =========qna_part responsive css======= */
+    #qna_part {
+        margin: 90px 0;
+    }
+
+    #qna_part .accordion .accordion-button {
+        padding: 20px 0 20px 15px;
+    }
+
+    #qna_part .accordion h5 {
+        font-size: 22px;
+        line-height: 28px;
+        margin-right: 20px;
+    }
+
+    #qna_part .accordion .accordion-button::after {
+        width: 0;
+        height: 0;
+    }
+
+    #qna_part .accordion h6 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    #qna_part .accordion .accordion-body {
+        padding: 0 20px 10px 58px;
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    /* =========form_sec responsive css======= */
+    #form_sec .main .right {
+        padding: 50px 35px 40px;
+        width: 100% !important;
+    }
+
+    #form_sec .main .right form input::placeholder {
+        font-size: 14px;
+    }
+
+    #form_sec .main .right .btn_arrow {
+        margin-left: 120px;
+    }
+
+    /* =========blog_part responsive css====== */
+    #blog_part {
+        margin: 90px 0;
+    }
+
+    #blog_part h2 {
+        font-size: 38px;
+        line-height: 55px;
+        margin-bottom: 40px;
+    }
+
+    #blog_part .blog_card .image {
+        height: 225px;
+        margin-bottom: 10px;
+    }
+
+    #blog_part .blog_card .date {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    #blog_part .blog_card h4 {
+        font-size: 21px;
+        line-height: 32px;
+    }
+
+    #blog_part .blog_card p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    #blog_part .blog_card .btn_arrow .arrow_link {
+        font-size: 16px;
+    }
+
+    #blog_part .blog_card .btn_arrow {
+        margin-top: 10px;
+    }
+
+    /* =========contact_us responsive css===== */
+    #contact_us {
+        padding: 90px 0 50px;
+        background: var(--bgcolor);
+    }
+
+    #contact_us .left p {
+        font-size: 15px;
+        width: 100%;
+        margin: 20px 0 30px;
+    }
+
+    #contact_us .right h3 {
+        font-size: 38px;
+        margin-top: 20px;
+    }
+
+    #contact_us .right p {
+        font-size: 15px;
+        margin: 10px 0 25px;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* =========navbar responsive css========= */
+    .navbar {
+        padding: 15px 0;
+    }
+
+    .navbar .offcanvas {
+        width: 45%;
+    }
+
+    /* =========our_work responsive css======= */
+    #our_work {
+        padding: 90px 0;
+    }
+
+    #our_work .work_card p {
+        font-size: 14px;
+    }
+
+    /* =========our_projects responsive css=== */
+
+    #our_projects {
+        padding: 90px 0;
+    }
+
+    #our_projects .title {
+        margin-bottom: 35px;
+    }
+
+    #our_projects .title h2 {
+        font-size: 38px;
+    }
+
+    #our_projects .project_banner .overlay {
+        padding: 80px 70px 0 40px;
+    }
+
+    #our_projects .project_card .overlay {
+        padding: 90px 70px;
+    }
+
+    #our_projects .project_card h5 {
+        width: 200px;
+    }
+
+    /* =========service_part responsive css=== */
+    #service_part {
+        padding: 90px 0;
+    }
+
+    #service_part .service_title {
+        font-size: 35px;
+        line-height: 48px;
+    }
+
+    #service_part .service_card h5 {
+        font-size: 20px;
+    }
+
+    #service_part .service_card p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    /* =========client_review responsive css== */
+    #client_review {
+        padding: 90px 0 135px;
+    }
+
+    #client_review .review_slider .review h2 {
+        font-size: 23px;
+        line-height: 41px;
+    }
+
+    /* =========qna_part responsive css======= */
+    #qna_part {
+        margin: 90px 0;
+    }
+
+    #qna_part .accordion .accordion-button {
+        padding: 20px 0 20px 15px;
+    }
+
+    #qna_part .accordion h5 {
+        font-size: 22px;
+        line-height: 28px;
+        margin-right: 20px;
+    }
+
+    #qna_part .accordion .accordion-button::after {
+        width: 0;
+        height: 0;
+    }
+
+    #qna_part .accordion h6 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    #qna_part .accordion .accordion-body {
+        padding: 0 20px 10px 58px;
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    /* =========form_sec responsive css======= */
+    #form_sec .main .left h5 {
+        font-size: 38px;
+        line-height: 50px;
+    }
+
+    #form_sec .main .left p {
+        font-size: 17px;
+    }
+
+    #form_sec .main .right {
+        padding: 50px 35px 40px;
+    }
+
+    #form_sec .main .right p {
+        margin: 12px 0 30px;
+    }
+
+    #form_sec .main .left .overlay {
+        padding: 50px 35px 40px;
+    }
+
+    #form_sec .main .right form input::placeholder {
+        font-size: 14px;
+    }
+
+    #form_sec .main .right .btn_arrow {
+        margin-left: 45px;
+    }
+
+    /* =========blog_part responsive css====== */
+    #blog_part {
+        margin: 90px 0;
+    }
+
+    #blog_part h2 {
+        font-size: 38px;
+        line-height: 55px;
+        margin-bottom: 40px;
+    }
+
+    #blog_part .blog_card .image {
+        height: 200px;
+        margin-bottom: 0;
+        margin-right: 20px;
+    }
+
+    #blog_part .blog_card .date {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    #blog_part .blog_card h4 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    #blog_part .blog_card p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    #blog_part .blog_card .btn_arrow .arrow_link {
+        font-size: 16px;
+    }
+
+    #blog_part .blog_card .btn_arrow {
+        margin-top: 10px;
+    }
+
+    /* =========contact_us responsive css===== */
+    #contact_us {
+        padding: 90px 0 50px;
+        background: var(--bgcolor);
+    }
+
+    #contact_us .left p {
+        font-size: 15px;
+        width: 100%;
+        margin: 20px 0 30px;
+    }
+
+    #contact_us .right h3 {
+        font-size: 38px;
+        margin-top: 20px;
+    }
+
+    #contact_us .right p {
+        font-size: 15px;
+        margin: 10px 0 25px;
+    }
+
+    /* =========footer_part responsive css==== */
+    #footer_part {
+        margin: 5px 0;
+    }
+
+    #footer_part p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .my_btn {
+        font-size: 15px;
+        line-height: 24px;
+        padding: 14px 35px;
+    }
+
+    /* =========navbar responsive css========= */
+    .navbar .navbar-nav .nav-item .nav-link {
+        margin-right: 20px;
+    }
+
+    /* =========banner responsive css======== */
+    #banner {
+        overflow: hidden;
+    }
+
+    #banner .image img {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate(25%, -50%);
+    }
+
+    /* =========our_projects responsive css=== */
+    #our_projects .project_banner .overlay {
+        padding: 120px 35px 0 48px;
+    }
+
+    #our_projects .project_card .overlay {
+        padding: 50px 55px 45px 45px;
+    }
+
+    /* =========service_part responsive css=== */
+    #service_part .service_card {
+        padding: 58px 20px 48px;
+    }
+
+    #service_part .service_card h5 {
+        font-size: 20px;
+    }
+
+    #service_part .service_card p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    /* =========client_review responsive css== */
+    #client_review .title h4 {
+        font-size: 35px;
+        width: 100%;
+    }
+
+    #client_review .title p {
+        width: 100%;
+    }
+
+    #client_review .review_slider .review h2 {
+        font-size: 27px;
+        line-height: 43px;
+    }
+
+    /* =========qna_part responsive css====== */
+    #qna_part .title h5 {
+        font-size: 34px;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    #qna_part .accordion h6 {
+        font-size: 22px;
+    }
+
+    /* =========footer_part responsive css=== */
+
+    #form_sec .main .left .overlay {
+        padding: 70px 40px 0;
+    }
+
+    #form_sec .main .right .btn_arrow {
+        margin-left: 100px;
+    }
+
+    #form_sec .main .right {
+        padding: 70px 40px 50px;
+        background: #1C1E53;
+    }
+
+    /* =========footer_part responsive css=== */
+    #footer_part .footer_nav ul li a {
+        font-size: 14px;
+        margin-left: 20px;
+    }
+
+}
