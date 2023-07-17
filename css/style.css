@@ -199,6 +199,31 @@ ol {
     color: #fff;
 }
 
+#banner .banner_btn .btn_arrow i {
+    font-size: 25px;
+    animation-name: arrowAnim;
+    animation-delay: 1ms;
+    animation-duration: normal;
+    animation-duration: 1800ms;
+    animation-iteration-count: infinite;
+}
+
+@keyframes arrowAnim {
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(15px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+#banner .banner_btn .btn_arrow:hover i {
+    animation-play-state: paused;
+    margin-left: 20px;
+}
+
 /* ===============banner css================ */
 /* ===============our_work css============== */
 #our_work {

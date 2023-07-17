@@ -87,6 +87,12 @@
         line-height: 48px;
         text-align: start;
     }
+    #service_part .service_card {
+        padding: 58px 35px 48px 35px;
+    }
+    #service_part .service_card p {
+        font-size: 14px;
+    }
 
     /* =========client_review responsive css== */
     #client_review {
